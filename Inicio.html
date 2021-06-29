@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+        <title>SIGEA</title>
+    </head>
+    <body onload="cargarDatos()">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-10">
+                    <br/>
+                    <button class="btn btn-success float-left" id="iniciar" data-bs-toggle="modal" data-bs-target="#inicio">Iniciar sesión</button>
+                </div>
+                <div class="col-lg-1"></div>
+            </div>
+    
+            <!-- MODALS -->
+            
+            <!-- toast -->
+            <div class="position-fixed top-0 end-0 p-3" style="z-index: 5">
+                <div id="liveToast" class="toast hide" role="alert" aria-live="assertive" aria-atomic="true">
+                  <div class="toast-header">
+                    <strong id="toastHeader" class="me-auto">Bootstrap</strong>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                  </div>
+                  <div id="toastBody" class="toast-body">
+                    Hello, world! This is a toast message.
+                  </div>
+                </div>
+              </div>
+        </div>
+    
+        <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+        <script src="js/validation.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
